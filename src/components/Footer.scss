@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a2238; /* Deep navy blue background matching navbar */
+  color: #ffffff; /* White text for contrast */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Subtle upward shadow */
+  text-align: center;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer a {
+  color: #f4db7d; /* Soft yellow for links matching navbar */
+  text-decoration: none;
+  transition: color 0.3s;
+  margin: 0 0.5rem;
+}
+
+.footer a:hover {
+  color: #9daaf2; /* Light purple on hover matching navbar */
+}
+
+.footer:hover {
+  background-color: #2a3c58; /* Slightly lighter navy on hover matching navbar */
+}
