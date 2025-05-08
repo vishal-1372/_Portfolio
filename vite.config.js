@@ -4,8 +4,7 @@ import { splitVendorChunkPlugin } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Add base path for GitHub Pages - change 'my-portfolio' to your actual repository name if different
-  base: '/my-portfolio/',
+  // Remove GitHub Pages base path as it's not needed for Vercel
   plugins: [
     react(),
     splitVendorChunkPlugin(), // Split vendor chunks for better caching
