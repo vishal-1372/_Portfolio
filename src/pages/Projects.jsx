@@ -17,8 +17,8 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "E-Commerce Dashboard",
-      description: "An admin dashboard for e-commerce platforms with real-time analytics, inventory management, and user management capabilities.",
+      title: "Food Seling website",
+      description: "This project is a React + Vite template. It provides a minimal setup for React development with Vite, including Hot Module Replacement (HMR) and ESLint rules. It supports Babel and SWC for fast refresh.",
       image: Project2Image,
       techStack: ["React", "Java-script", "css"],
       demoLink: "https://react-1-xvf4.vercel.app/",
