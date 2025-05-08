@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website built to showcase my projects and skills. Features smooth animations and a modern UI design.",
-      image: "/public/images/Project1.jpg",
+      image: "public/images/Project1.jpg",
       techStack: ["React", "SCSS", "Vite"],
       demoLink: "https://portfolio-demo.com",
       codeLink: "https://github.com/vishal-1372"
