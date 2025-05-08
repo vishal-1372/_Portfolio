@@ -12,8 +12,8 @@ const Projects = () => {
       description: "A responsive portfolio website built to showcase my projects and skills. Features smooth animations and a modern UI design.",
       image: Project1Image,
       techStack: ["React", "SCSS", "Vite"],
-      demoLink: "https://portfolio-demo.com",
-      codeLink: "https://github.com/vishal-1372"
+      demoLink: "https://portfolio-indol-beta-74.vercel.app/",
+      codeLink: "https://github.com/vishal-1372/_Portfolio"
     },
     {
       id: 2,
