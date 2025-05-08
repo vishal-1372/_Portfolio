@@ -1,5 +1,8 @@
 import React from 'react';
 import './Projects.scss';
+// Import images directly
+import Project1Image from '/images/Project1.jpg';
+import Project2Image from '/images/Project2.png';
 
 const Projects = () => {
   const projects = [
@@ -7,16 +10,16 @@ const Projects = () => {
       id: 1,
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website built to showcase my projects and skills. Features smooth animations and a modern UI design.",
-      image: "/images/Project1.jpg",
+      image: Project1Image,
       techStack: ["React", "SCSS", "Vite"],
       demoLink: "https://portfolio-demo.com",
       codeLink: "https://github.com/vishal-1372"
     },
     {
       id: 2,
-      title: "Food seling website",
+      title: "E-Commerce Dashboard",
       description: "An admin dashboard for e-commerce platforms with real-time analytics, inventory management, and user management capabilities.",
-      image: "/images/Project2.png",
+      image: Project2Image,
       techStack: ["React", "Java-script", "css"],
       demoLink: "https://react-1-xvf4.vercel.app/",
       codeLink: "https://github.com/vishal-1372/REACT_1"
