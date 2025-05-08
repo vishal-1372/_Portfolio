@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "E-Commerce Dashboard",
+      title: "Food seling website",
       description: "An admin dashboard for e-commerce platforms with real-time analytics, inventory management, and user management capabilities.",
       image: "/public/images/Project2.png",
       techStack: ["React", "Java-script", "css"],
