@@ -93,7 +93,7 @@ const Contact = () => {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a 
-              href="/files/Vishal_resume.pdf" 
+              href="/files/Vishal_resume_.pdf" 
               download
               aria-label="Download Resume"
               title="Download Resume"
